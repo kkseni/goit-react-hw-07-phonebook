@@ -17,10 +17,7 @@ export const Label = styled.label`
 export const Input = styled.input`
   padding: 10px;
   margin: 5px;
-  border-top: 0;
-  border-right: 0;
   border-bottom: 2px solid #333;
-  border-left: 0;
   border-radius: 10px;
   :focus {
     outline: none;

@@ -7,7 +7,6 @@ export const NavBar = styled.header`
 
   padding: 20px;
   padding-bottom: 20px;
-  background-image: linear-gradient(90deg, #0f0c29, #302b63, #24243e);
 
   height: 90px;
 `;
@@ -20,13 +19,10 @@ export const HeaderWrapper = styled.div`
 export const NavLinkStyled = styled(NavLink)`
 font-family: 'Roboto';
   font-weight: 500;
-  font-size: 34px;
+  font-size: 18px;
   line-height: 1.33;
-  min-width: 120px;
-  min-height: 44px;
-
+  
   margin-right: 30px;
-
   color: grey;
   background-color: transparent;
   border-color: #ffffff;
@@ -42,8 +38,6 @@ font-family: 'Roboto';
 
     transform: translateY(5%) scale(1.1);
   }
-
-  background: linear-gradient(transparent, grey);
 
   &.active {
     background-color: #6bdddd;

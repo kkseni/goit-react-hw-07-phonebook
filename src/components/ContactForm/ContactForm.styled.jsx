@@ -13,7 +13,6 @@ export const Form = styled.form`
   padding: 30px;
   text-align: center;
   width: 350px;
-  background-color: aliceblue;
 `;
 
 export const Label = styled.label`
@@ -23,10 +22,7 @@ export const Label = styled.label`
 export const Input = styled.input`
   padding: 10px;
   margin: 5px;
-  border-top: 0;
-  border-right: 0;
   border-bottom: 2px solid #333;
-  border-left: 0;
   :focus {
     outline: none;
     border-bottom: none;
