@@ -1,9 +1,7 @@
 import styled from '@emotion/styled';
 
 export const ContainerBody = styled.div`
-  /* background: url(http://img6.uploadhouse.com/fileuploads/17737/17737075bdad5cfa9423bb2c3c2beee695c72bb8.jpg); */
-  /* width: 100vw;
-  height: 100%; */
+  */
   text-align: center;
 `;
 
